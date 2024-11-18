@@ -6,6 +6,20 @@
         "direction": "in",
         "tableName": "dbo.vehicle",
         "connectionStringSetting": "SqlConnectionString"
+      },
+      {
+        "name": "inputblob",
+        "type": "blob",
+        "direction": "in",
+        "path": "vehicle/speed-ticket.txt",
+        "connection": "BlobConnectionString"
+      },
+      {
+        "name": "outputblob",
+        "type": "blob",
+        "direction": "out",
+        "path": "vehicle/speed-ticket.txt",
+        "connection": "BlobConnectionString"
       }
     ]
 }
