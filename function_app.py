@@ -8,8 +8,8 @@ import string
 
 app = func.FunctionApp()
 
-# Triggers every 10 seconds using cron
-@app.timer_trigger(schedule="*/10 * * * * *", arg_name="myTimer", run_on_startup=False,
+# Triggers every 1 - 30 seconds using cron
+@app.timer_trigger(schedule="*/1 * * * * *", arg_name="myTimer", run_on_startup=False,
               use_monitor=False)
 @app.generic_output_binding(arg_name="vehicle", type="sql", CommandText="dbo.vehicle", ConnectionStringSetting="SqlConnectionString",data_type=DataType.STRING)
 def write_vehicle_info(myTimer: func.TimerRequest, vehicle: func.Out[func.SqlRow]) -> None:
@@ -49,6 +49,7 @@ def analyse_vehicle_info(sqlchange: str, inputblob: str, outputblob: func.Out[st
     data = json.loads(sqlchange)
 
     for change in data:
+        logging.info(change)
         newRow = change["Item"]
         logging.info(newRow)
 
