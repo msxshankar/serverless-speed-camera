@@ -24,6 +24,25 @@ def write_vehicle_info(myTimer: func.TimerRequest, vehicle: func.Out[func.SqlRow
     colour = ["Red", "White", "Black", "Purple", "Silver", "Yellow", "Green", "Brown", "Grey", "Cyan", "Teal", "Orange", 
           "Lime", "Unidentified"]
     
+    # Number of speed cameras recording to database    
+    vehicle.set(func.SqlRow({"Id": str(uuid.uuid4()), 
+                            "car": random.choice(car), 
+                            "colour": random.choice(colour), 
+
+                            # 3 random captial letters followed by 3 random digits
+                            "licenceplate": ''.join(random.choices(string.ascii_uppercase, k=3) + random.choices(string.digits, k=3)),
+                            # Speed between 0 and 100 (mph)
+                            "speed": random.uniform(0.0, 100.0)}))
+    
+    vehicle.set(func.SqlRow({"Id": str(uuid.uuid4()), 
+                            "car": random.choice(car), 
+                            "colour": random.choice(colour), 
+
+                            # 3 random captial letters followed by 3 random digits
+                            "licenceplate": ''.join(random.choices(string.ascii_uppercase, k=3) + random.choices(string.digits, k=3)),
+                            # Speed between 0 and 100 (mph)
+                            "speed": random.uniform(0.0, 100.0)}))
+    
     vehicle.set(func.SqlRow({"Id": str(uuid.uuid4()), 
                             "car": random.choice(car), 
                             "colour": random.choice(colour), 
