@@ -1,2 +1,0 @@
-ALTER TABLE [dbo].[vehicle]
-ENABLE CHANGE_TRACKING;

@@ -1,0 +1,41 @@
+EXAMPLE SPEEDING TICKET
+        
+            Dear driver,
+            You have been issued a speeding fine for going 26.86 mph over the speed limit (70 mph).
+            We have the following details about you:
+            - Car: Green Unidentified
+            - Licence plate: EYP711
+                              
+            You fine amount is: £100.00. You have 14 days to pay this.
+        
+            Dear driver,
+            You have been issued a speeding fine for going 0.49 mph over the speed limit (70 mph).
+            We have the following details about you:
+            - Car: Red Mercedes
+            - Licence plate: UWT744
+                              
+            You fine amount is: £100.00. You have 14 days to pay this.
+        
+            Dear driver,
+            You have been issued a speeding fine for going 16.1 mph over the speed limit (70 mph).
+            We have the following details about you:
+            - Car: Red Zenvo
+            - Licence plate: NWO911
+                              
+            You fine amount is: £100.00. You have 14 days to pay this.
+        
+            Dear driver,
+            You have been issued a speeding fine for going 23.99 mph over the speed limit (70 mph).
+            We have the following details about you:
+            - Car: Grey Toyota
+            - Licence plate: PFO008
+                              
+            You fine amount is: £100.00. You have 14 days to pay this.
+        
+            Dear driver,
+            You have been issued a speeding fine for going 26.33 mph over the speed limit (70 mph).
+            We have the following details about you:
+            - Car: Lime Ford
+            - Licence plate: ZQZ410
+                              
+            You fine amount is: £100.00. You have 14 days to pay this.
