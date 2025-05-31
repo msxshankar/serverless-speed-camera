@@ -1,4 +1,4 @@
-Distributed Systems - Serverless speed camera workflow
+# Serverless speed camera workflow
 
 ## Runnng solution
 
