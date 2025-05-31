@@ -1,6 +1,4 @@
-# COMP3211 - Distributed Systems
-
-Coursework 2 - Serverless speed camera workflow
+Distributed Systems - Serverless speed camera workflow
 
 ## Runnng solution
 
